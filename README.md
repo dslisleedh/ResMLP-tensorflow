@@ -6,7 +6,8 @@
 
 <h3>
 요약 :  
-MLP-Mixer와 거의 비슷한 형태를 가지고 있으나, Layer Normalization 대신 Affine Layer를 사용함. Affine layer는 Layer Normalization과 비슷하지만, Batch의 통계량을 사용하지 않기에 좀 더
+  
+[MLP-Mixer](https://github.com/dslisleedh/MLPMixer-tensorflow2)와 거의 비슷한 형태를 가지고 있으나, Layer Normalization 대신 Affine Layer를 사용함. Affine layer는 Layer Normalization과 비슷하지만, Batch의 통계량을 사용하지 않기에 좀 더
 Robust하고 Stable하며 Inference time에 추가적인 Cost를 소모하지 않음.  
 </h3>
 <h4>
