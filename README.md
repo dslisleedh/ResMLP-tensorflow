@@ -20,5 +20,5 @@ Robust하고 Stable하며 Inference time에 추가적인 Cost를 소모하지 �
 Affine Layer는 Linear FC 전과 후에 하나씩들어감.  
 
 Linear FC전의 Affine Layer("pre-normalization")는 기존 값과 비슷한 결과를 넣어주기 위해 a를 굉장히 작은 값으로, b를 1로 initialization하고,  
-Linear FC 후의 Affine Layer("post-normalization")는 Residual을 고려하여 단순하게 매우 작은 값의 a만을 initialization하여 사용함.
+Linear FC 후의 Affine Layer("post-normalization")는 Shortcut-connection과 합쳐지더라도 비슷한 값이 유지되게 단순하게 매우 작은 값의 a만을 initialization하여 사용함.
 </h5>
